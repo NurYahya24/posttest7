@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.konsult{
+    height: 100vh;
+    padding: 40px 0;
+    background: #000000;
+    color: #ffa3a3;
+    text-align: center;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.border{
+    width: 160px;
+    height: 5px;
+    background: #6ab04c;
+    margin: 26px auto;
+}
+
+.baris{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.kolom{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.konsul{
+    background: rgb(32, 32, 32);
+    box-shadow: 0px 0px 19px 5px rgb(32, 32, 32);
+    padding: 30px;
+}
+.konsul img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name{
+    font: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+
+@media screen and (max-widht:600px) {
+.kolom{
+    flex: 100%;
+    max-width: 100%;
+}
+
+}
